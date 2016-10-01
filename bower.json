@@ -1,0 +1,9 @@
+{
+  "name": "jquerymatch-proportion",
+  "version": "",
+  "description": "Awesome jQuery plugin",
+  "dependencies": {
+    "jquery": "latest",
+    "jasmine-jquery": "latest"
+  }
+}

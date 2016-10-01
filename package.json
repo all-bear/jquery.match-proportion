@@ -1,0 +1,64 @@
+{
+  "name": "jquery.match-proportion",
+  "version": "0.1.0",
+  "description": "Match element width/height to match some proportion",
+  "keywords": [
+    "jquery-plugin",
+    "match-proportion",
+    "proportion"
+  ],
+  "homepage": "https://github.com/all-bear/jquery.match-proportion",
+  "author": {
+    "name": "Oleh Birjukov",
+    "email": "ol.birjukov@gmail.com",
+    "url": "https://github.com/all-bear"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/all-bear/jquery.match-proportion.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "scripts/match-proportion.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jquery": "^3.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-karma": "^2.0.0",
+    "jasmine-core": "^2.4.1",
+    "jshint-stylish": "^2.2.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-html-reporter": "^0.2.7",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-safari-launcher": "*",
+    "karma-script-launcher": "*",
+    "load-grunt-tasks": "^3.5.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "time-grunt": "^1.3.0"
+  },
+  "peerDependencies": {
+    "karma": ">=0.10",
+    "grunt": ">=0.4"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
